@@ -1,0 +1,22 @@
+{
+    "name": "citybike/task",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "citybike\\task\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "citybike\\task\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    },
+    "require": {
+        "ext-simplexml": "*",
+        "ext-mbstring": "*",
+        "ext-ctype": "*"
+    }
+}
